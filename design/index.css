@@ -79,3 +79,12 @@ p{
     height: 70px;
     border-radius: 50%;
 }
+.third{
+    display: flex;
+    background-color: hsl(240, 25%, 39%);
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem ;
+    max-width: none;
+    color: white;
+}

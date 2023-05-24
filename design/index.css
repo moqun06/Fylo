@@ -33,7 +33,7 @@ button{
     display: flex;
     align-items: center;
     
-    gap: 2rem;
+    gap: 4rem;
     padding: 5rem 4rem;
 }
 form{
@@ -60,6 +60,7 @@ p{
     background-position: center;
 }
 .box{
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;

@@ -80,14 +80,16 @@ p{
     border-radius: 50%;
 }
 .third{
-    display: flex;
+    display: grid;
+    align-items: center;
     background-color: hsl(240, 25%, 39%);
-    gap: 3rem;
+    gap: 5rem;
     padding: 5rem 4rem;
     color: white;
-    justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    
 }
-form{
+.mark{
     display: flex;
     flex-direction: column;
 }

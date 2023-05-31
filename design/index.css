@@ -93,3 +93,38 @@ p{
     display: flex;
     flex-direction: column;
 }
+footer{
+    
+    background-color:hsl(243, 87%, 12%) ;
+    padding: 5rem 4rem;
+    color: white;
+    
+    
+}
+.phone{
+    display: flex;
+    color: white;
+    gap: 2rem;
+    align-items: center;
+}
+ul{
+    color: white;
+    list-style-type: none;
+    
+}
+.footersection{
+    display:flex ;
+    gap: 19rem;
+    padding-top: 2rem;
+    
+}
+li{
+    padding-bottom: 2rem;
+    font-size: 18px;
+}
+.fa-brands{
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
